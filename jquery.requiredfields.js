@@ -8,7 +8,7 @@
 *   Add class 'reqd-email' to required e-mail fields
 */
 
-// *Version: 1.0, Last updated: 8/4/2010*
+// *Version: 1.0, Last updated: 9/23/2010*
 // 
 // Demo         - http://timmywillison.com/samples/requiredfields/
 // GitHub       - http://github.com/timmywil/requiredfields
@@ -32,7 +32,7 @@
 // Release History
 // 
 // 0.9   - (9/23/2010) Initial release
-//
+// 
 // See README for usage
 
 (function ($, window, document, undefined) {
