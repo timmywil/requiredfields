@@ -1,20 +1,20 @@
-jquery.requiredfields.js + HTML5 placeholders
+jquery.requiredfields.js + HTML5 placeholders<br/>
 timmy willison
 
-*Minimalist form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)*
+*Minimalist form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)*<br/>
 *HTML5 placeholders across all browsers*
 
 *Version: 1.0, Last updated: 9/23/2010*
 
-Demo         - <a href="http://timmywillison.com/samples/requiredfields/">http://timmywillison.com/samples/requiredfields/</a>
-GitHub       - <a href="http://github.com/timmywil/requiredfields">http://github.com/timmywil/requiredfields</a>
-Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/requiredfields.js</a> (8kb)
-(Minified)   - <a href="http://github.com/timmywil/password123/raw/master/requiredfields.min.js">http://github.com/timmywil/password123/raw/master/requiredfields.min.js</a> (4kb)
+Demo         - <a href="http://timmywillison.com/samples/requiredfields/">http://timmywillison.com/samples/requiredfields/</a><br/>
+GitHub       - <a href="http://github.com/timmywil/requiredfields">http://github.com/timmywil/requiredfields</a><br/>
+Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/requiredfields.js</a> (8kb)<br/>
+(Minified)   - <a href="http://github.com/timmywil/password123/raw/master/requiredfields.min.js">http://github.com/timmywil/password123/raw/master/requiredfields.min.js</a> (4kb)</br/>
 
 License
 
-Copyright (c) 2010 timmy willison
-Dual licensed under the MIT and GPL licenses.
+Copyright (c) 2010 timmy willison<br/>
+Dual licensed under the MIT and GPL licenses.<br/>
 http://timmywillison.com/license/
 
 Support and Testing
@@ -22,7 +22,8 @@ Support and Testing
 Versions of jQuery and browsers this was tested on.
 
 jQuery Versions - 1.3.0-1.4.2
-Browsers Tested - Internet Explorer 6-8, Firefox 2-3.7, Safari 3-5, Chrome 4-5, Opera 9.6-10.5.
+Browsers Tested - Internet Explorer 6-8, Firefox 2-3.7, Safari 3-5, <br/>
+Chrome 4-5, Opera 9.6-10.5.
 
 Release History
 
