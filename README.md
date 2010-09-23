@@ -6,7 +6,7 @@ timmy willison
 
 *Version: 1.0, Last updated: 9/23/2010*
 
-Demo         - Coming soon<!-- <a href="http://timmywillison.com/samples/requiredfields/">http://timmywillison.com/samples/requiredfields/</a> --><br/>
+Demo         - Coming soon<br/>
 GitHub       - <a href="http://github.com/timmywil/requiredfields">http://github.com/timmywil/requiredfields</a><br/>
 Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/requiredfields.js</a> (8kb)<br/>
 (Minified)   - <a href="http://github.com/timmywil/password123/raw/master/requiredfields.min.js">http://github.com/timmywil/password123/raw/master/requiredfields.min.js</a> (4kb)</br/>
