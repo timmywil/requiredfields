@@ -68,9 +68,7 @@ It is the responsibility of the user to make invalid states look how they should
 
 ::::::::::::::PURPOSE OF HTML5 PLACEHOLDER PLUGIN::::::::::::
 
-<pre><code>
 The purpose of this plugin is to be able to put your placeholders in the HTML5 placeholder attribute and have it work in IE6.  There are several advantages to this.  First, you get to use HTML5.  Second, you can insert values (perhaps you already know what the value of a field should be) into the value attribute without it getting treated like a placeholder by some function you wrote to fake placeholders.  Third, this plugin has even more functionality than the default HTML5 placeholder attribute.  It gives you a class to add placeholder styles.  By default, Safari and Firefox have different default colors for placeholders.  With this plugin, you simply put what color you want placeholder text to be in your own css.  Plus, you can add other styles when that class is present (which is when the field is blurred).
-</pre></code>
 
 ::::::::::::::::PLACEHOLDER USAGE:::::::::::::::::::
 <pre><code>
