@@ -36,28 +36,28 @@ The purpose of the validation plugin is to provide the most often needed require
 <h1>VALIDATION USAGE</h1>
 
 Initialize:
-<pre><code>
+<pre>
 $('form').validate();
-</pre></code>
+</pre>
 
 .validate() simply applies a pre-made submit function to the selected form(s).  You may also use $('form').checkForm() in your own submit function instead.  checkForm() takes at most 1 form and returns a boolean indicating whether the form is valid.  It is the same function that applies the invalid classes to invalid fields.
 
 Write your own css for .invalid inputs:
-<pre><code>
+<pre>
 .invalid {
     color: red !important;
 }
-</pre></code>
+</pre>
 
 Add class 'reqd' to required text and select fields:
-<pre><code>
-<input type="text" class="reqd"/>
-</pre></code>
+<pre>
+&lt;input type=&quot;text&quot; class=&quot;reqd&quot;/&gt;
+</pre>
 
 Add class 'reqd-email' to required e-mail fields:
-<pre><code>
-<input type="text" class="reqd-email"/>
-</code></pre>
+<pre>
+&lt;input type=&quot;text&quot; class=&quot;reqd-email&quot;/&gt;
+</pre>
 
 All the validation does is add class required to empty text fields, 
 select fields with value "NONE", and email fields with absent or invalid email addresses.
@@ -70,12 +70,12 @@ The purpose of this plugin is to be able to put your placeholders in the HTML5 p
 
 <h1>PLACEHOLDER USAGE</h1>
 
-<pre><code>
+<pre>
 $('input:text').outOfPlace();
-</pre></code>
+</pre>
 
 Options:
-<pre><code>
+<pre>
 $('input:text').outOfPlace({
     
     // Gives you control over the submit function if needed
@@ -98,14 +98,14 @@ $('input:text').outOfPlace({
     // keeps the js lightweight
     placeholderClass: 'place'
 });
-</pre></code>
+</pre>
   
 Then, your html for all browsers will look like this:
-<pre><code>
-  <input type="text" placeholder="Name"/>
-</pre></code>
+<pre>
+&lt;input type=&quot;text&quot; placeholder=&quot;Name&quot;/&gt;
+</pre>
 
-<h1>PURPOSE FOR HAVING THESE PLUGINS TOGETHER</h1>
+<h2>PURPOSE FOR HAVING THESE PLUGINS TOGETHER</h2>
 
 The validation plugin will check that the placeholder is not
 still the value sent if the field is required.
