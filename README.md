@@ -29,13 +29,11 @@ Release History
 
 0.9   - (9/23/2010) Initial release
 
-::::::::::::PURPOSE OF VALIDATION:::::::::::::::
+<h1>PURPOSE OF VALIDATION</h1>
 
-<pre><code>
 The purpose of the validation plugin is to provide the most often needed requirements for client-side validation without getting bogged down in a ton of useful, but often unnecessary, form validation like the most popular plugins. For common front-end development, you usually don't need more than this and there's no point in making the user download the extra javascript. This plugin is also light on its dependency on jQuery and uses raw javascript where possible, making it quite fast.
-</code></pre>
 
-:::::::::::VALIDATION USAGE:::::::::::::::::::
+<h1>VALIDATION USAGE</h1>
 
 Initialize:
 <pre><code>
@@ -66,11 +64,12 @@ select fields with value "NONE", and email fields with absent or invalid email a
 It is the responsibility of the user to make invalid states look how they should.
 
 
-::::::::::::::PURPOSE OF HTML5 PLACEHOLDER PLUGIN::::::::::::
+<h1>PURPOSE OF HTML5 PLACEHOLDER PLUGIN</h1>
 
 The purpose of this plugin is to be able to put your placeholders in the HTML5 placeholder attribute and have it work in IE6.  There are several advantages to this.  First, you get to use HTML5.  Second, you can insert values (perhaps you already know what the value of a field should be) into the value attribute without it getting treated like a placeholder by some function you wrote to fake placeholders.  Third, this plugin has even more functionality than the default HTML5 placeholder attribute.  It gives you a class to add placeholder styles.  By default, Safari and Firefox have different default colors for placeholders.  With this plugin, you simply put what color you want placeholder text to be in your own css.  Plus, you can add other styles when that class is present (which is when the field is blurred).
 
-::::::::::::::::PLACEHOLDER USAGE:::::::::::::::::::
+<h1>PLACEHOLDER USAGE</h1>
+
 <pre><code>
 $('input:text').outOfPlace();
 </pre></code>
@@ -106,7 +105,7 @@ Then, your html for all browsers will look like this:
   <input type="text" placeholder="Name"/>
 </pre></code>
 
-::::::::::::::::PURPOSE FOR HAVING THESE PLUGINS TOGETHER:::::::::::::::
+<h1>PURPOSE FOR HAVING THESE PLUGINS TOGETHER</h1>
 
 The validation plugin will check that the placeholder is not
 still the value sent if the field is required.
