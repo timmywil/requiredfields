@@ -6,10 +6,10 @@ timmy willison
 
 *Version: 1.0, Last updated: 9/23/2010*
 
-Demo         - http://timmywillison.com/samples/requiredfields/
-GitHub       - http://github.com/timmywil/requiredfields
-Source       - http://github.com/timmywil/requiredfields/raw/master/requiredfields.js (8kb)
-(Minified)   - http://github.com/timmywil/password123/raw/master/requiredfields.min.js (4kb)
+Demo         - <a href="http://timmywillison.com/samples/requiredfields/">http://timmywillison.com/samples/requiredfields/</a>
+GitHub       - <a href="http://github.com/timmywil/requiredfields">http://github.com/timmywil/requiredfields</a>
+Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/requiredfields.js</a> (8kb)
+(Minified)   - <a href="http://github.com/timmywil/password123/raw/master/requiredfields.min.js">http://github.com/timmywil/password123/raw/master/requiredfields.min.js</a> (4kb)
 
 License
 
