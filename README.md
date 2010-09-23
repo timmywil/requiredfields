@@ -29,9 +29,9 @@ Release History
 
 0.9   - (9/23/2010) Initial release
 
-<h1>PURPOSE OF VALIDATION</h1>
+<h1>PURPOSE OF THIS VALIDATION PLUGIN</h1>
 
-The purpose of the validation plugin is to provide the most often needed requirements for client-side validation without getting bogged down in a ton of useful, but often unnecessary, form validation like the most popular plugins. At least for me, I like download sizes to be small.  If I don't use it, I don't want it.
+To provide the most often needed requirements for client-side validation without getting bogged down in a ton of useful, but often unnecessary, form validation like the most popular plugins. At least for me, I like download sizes to be small.  If I don't use it, I don't want it.  I handle emails, text inputs, and select fields.  Need radio buttons and/or checkboxes?  Doing those yourself saves me space.
 
 <h1>VALIDATION USAGE</h1>
 
