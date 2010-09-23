@@ -12,8 +12,8 @@
 // 
 // Demo         - Coming soon
 // GitHub       - http://github.com/timmywil/requiredfields
-// Source       - http://github.com/timmywil/requiredfields/raw/master/requiredfields.js (8kb)
-// (Minified)   - http://github.com/timmywil/password123/raw/master/requiredfields.min.js (4kb)
+// Source       - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js (8kb)
+// (Minified)   - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js (4kb)
 // 
 // License
 // 
