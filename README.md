@@ -31,7 +31,7 @@ Release History
 
 <h1>PURPOSE OF VALIDATION</h1>
 
-The purpose of the validation plugin is to provide the most often needed requirements for client-side validation without getting bogged down in a ton of useful, but often unnecessary, form validation like the most popular plugins. For common front-end development, you usually don't need more than this and there's no point in making the user download the extra javascript. This plugin is also light on its dependency on jQuery and uses raw javascript where possible, making it quite fast.
+The purpose of the validation plugin is to provide the most often needed requirements for client-side validation without getting bogged down in a ton of useful, but often unnecessary, form validation like the most popular plugins. At least for me, I like download sizes to be small.  If I don't use it, I don't want it.
 
 <h1>VALIDATION USAGE</h1>
 
@@ -105,7 +105,7 @@ Then, your html for all browsers will look like this:
 &lt;input type=&quot;text&quot; placeholder=&quot;Name&quot;/&gt;
 </pre>
 
-<h2>PURPOSE FOR HAVING THESE PLUGINS TOGETHER</h2>
+<h2>BUT WHY ARE THESE PLUGINS TOGETHER?</h2>
 
 The validation plugin will check that the placeholder is not
 still the value sent if the field is required.
