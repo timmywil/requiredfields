@@ -83,6 +83,8 @@ Add class 'reqd-email' to required e-mail fields:
 &lt;input type=&quot;email&quot; class=&quot;reqd-email&quot;/&gt;
 </pre>
 
+
+
 <h3>Summary</h3>
 All this plugin really does is add a class of '<b>invalid</b>' to all required text inputs,<br/>
 email inputs, and select fields that have not been properly filled out.<br/>
