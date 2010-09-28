@@ -1,11 +1,11 @@
 jquery.requiredfields.js<br/>
 timmy willison
 
-*Minimalist form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)*<br/>
+*Minimalistic form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)*<br/>
 
-*Version: 1.0, Last updated: 9/23/2010*
+*Version: 0.9, Last updated: 9/23/2010*
 
-Demo         - Coming soon<br/>
+Demo         - <a href="http://timmywillison.com/samples/requiredfields/"></a><br/>
 GitHub       - <a href="http://github.com/timmywil/requiredfields">http://github.com/timmywil/requiredfields</a><br/>
 Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js</a> (8kb)<br/>
 (Minified)   - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js</a> (4kb)</br/>
@@ -39,7 +39,7 @@ Initialize:
 $('form').validate();
 </pre>
 
-.validate() simply applies a pre-made submit function to the selected form(s).  You may also use $('form').checkForm() in your own submit function instead.  checkForm() takes at most 1 form and returns a boolean indicating whether the form is valid.  It is the same function that applies the invalid classes to invalid fields.
+.validate() simply applies a pre-made submit function to the selected form(s).  You may also use <pre>$('form').checkForm()</pre> in your own submit function instead.  checkForm() takes at most 1 form and returns a boolean indicating whether the form is valid.  It is the same function that applies the invalid classes to invalid fields.
 
 Write your own css for .invalid inputs:
 <pre>
