@@ -51,11 +51,15 @@ Write your own css for .invalid inputs:
 Add class 'reqd' to required text and select fields:
 <pre>
 &lt;input type=&quot;text&quot; class=&quot;reqd&quot;/&gt;
+&lt;select class=&quot;reqd&quot;&gt;
+  &lt;option value=&quot;Barn&quot;&gt;Yard&lt;/option&gt;
+&lt;/select&gt;
 </pre>
 
 Add class 'reqd-email' to required e-mail fields:
 <pre>
 &lt;input type=&quot;text&quot; class=&quot;reqd-email&quot;/&gt;
+&lt;input type=&quot;email&quot; class=&quot;reqd-email&quot;/&gt;
 </pre>
 
 All the validation does is add class required to empty text fields, 
