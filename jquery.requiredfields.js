@@ -18,7 +18,7 @@
 // 
 // Copyright (c) 2010 timmy willison
 // Dual licensed under the MIT and GPL licenses.
-// http://timmywillison.com/license/
+// http://timmywillison.com/licence/
 // 
 // Support and Testing
 // 
