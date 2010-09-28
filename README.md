@@ -39,8 +39,24 @@ Initialize:
 $('form').validate();
 </pre>
 
-.validate() simply applies a pre-made submit function to the selected form(s).  You may also use <pre>$('form').checkForm();</pre> in your own submit function instead.<br/>
-checkForm() takes at most 1 form and returns a boolean indicating whether the form is valid.<br/>
+.validate() simply applies a pre-made submit function to the selected form(s). <br/>
+You may also use checkForm() in your own submit function instead. <b>Like so</b>:<br/>
+
+<pre>
+  $('form').submit(function () {
+      if ( !$(this).checkForm() ) {
+          // The form is invalid
+          // Invalid classes have been added to invalid fields
+          // You can add error messages to the DOM, alerts, anything you want
+          return false;
+      }
+      
+      // If we're past the if statement, the form is valid and 
+      // we can let the submit go through so we don't do anything
+  });
+</pre>
+
+checkForm() takes at most 1 form and returns a *boolean* indicating whether the form is valid.<br/>
 It is the same function that applies the invalid classes to invalid fields.
 
 Write your own css for .invalid inputs:
