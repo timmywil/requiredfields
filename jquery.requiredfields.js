@@ -9,7 +9,7 @@
 
 // *Version: 0.9, Last updated: 9/27/2010*
 // 
-// Demo         - Coming soon
+// Demo         - http://timmywillison.com/samples/requiredfields/
 // GitHub       - http://github.com/timmywil/requiredfields
 // Source       - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js (8kb)
 // (Minified)   - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js (4kb)
