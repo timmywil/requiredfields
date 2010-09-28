@@ -5,7 +5,7 @@ timmy willison
 
 *Version: 0.9, Last updated: 9/23/2010*
 
-Demo         - <a href="http://timmywillison.com/samples/requiredfields/"></a><br/>
+Demo         - <a href="http://timmywillison.com/samples/requiredfields/">http://timmywillison.com/samples/requiredfields/</a><br/>
 GitHub       - <a href="http://github.com/timmywil/requiredfields">http://github.com/timmywil/requiredfields</a><br/>
 Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js</a> (8kb)<br/>
 (Minified)   - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js</a> (4kb)</br/>
