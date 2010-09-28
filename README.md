@@ -39,7 +39,9 @@ Initialize:
 $('form').validate();
 </pre>
 
-.validate() simply applies a pre-made submit function to the selected form(s). <br/>
+validate() simply applies a pre-made submit function to the selected form(s).<br/>
+It simply runs checkForm() and stops submit if the form is invalid.<br/>
+
 You may also use checkForm() in your own submit function instead. <b>Like so</b>:<br/>
 
 <pre>
