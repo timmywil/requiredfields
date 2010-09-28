@@ -52,6 +52,7 @@ Add class 'reqd' to required text and select fields:
 <pre>
 &lt;input type=&quot;text&quot; class=&quot;reqd&quot;/&gt;
 &lt;select class=&quot;reqd&quot;&gt;
+  &lt;option value=&quot;&quot;&gt;Pick Something&lt;/option&gt;
   &lt;option value=&quot;Barn&quot;&gt;Yard&lt;/option&gt;
 &lt;/select&gt;
 </pre>
