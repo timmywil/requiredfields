@@ -30,7 +30,7 @@ Release History
 
 <h1>PURPOSE OF THIS VALIDATION PLUGIN</h1>
 
-To provide the most often needed requirements for client-side validation without getting bogged down in a ton of useful, but often unnecessary, form validation like the most popular plugins. At least for me, I like download sizes to be small.  If I don't use it, I don't want it.  I can handle what stuff looks like when they're invalid.  I can add my own error messages with less code than a plugin can do it for me and I bet you can too.  So which code do I actually use consistently?  Well, this.
+To provide the most often needed requirements for client-side validation without getting bogged down in a ton of useful, but often unnecessary, form validation like the most popular plugins. At least for me, I like download sizes to be small.  If I don't use it, I don't want it.  I can handle what stuff looks like when they're invalid.  I can add my own error messages with less code than a plugin can do it for me and I bet you can too.  Nothing ever looks the same on two different sites anyway.  So which code do I actually use consistently?  Well, this.
 
 <h1>VALIDATION USAGE</h1>
 
