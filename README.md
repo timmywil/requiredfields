@@ -83,6 +83,7 @@ Add class 'reqd-email' to required e-mail fields:
 &lt;input type=&quot;email&quot; class=&quot;reqd-email&quot;/&gt;
 </pre>
 
-All the validation does is add class required to empty text fields, 
-select fields with value "NONE", and email fields with absent or invalid email addresses.
-It is the responsibility of the user to make invalid states look how they should.
+<h3>Summary</h3>
+All this plugin really does is add a class of '<b>invalid</b>' to all required text inputs,<br/>
+email inputs, and select fields that have not been properly filled out.<br/>
+It is the responsibility of the <b>user</b> to make invalid states look how they should.
