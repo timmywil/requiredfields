@@ -1,10 +1,9 @@
 /*!
 *   jquery.requiredfields.js
-*   timmy willison
+*   Copyright (c) 2010 timmy willison
+*   Dual licensed under the MIT and GPL licenses.
+*   http://timmywillison.com/licence/
 *   Minimalist form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)
-*   Remember to write your own css for .invalid inputs
-*   Add class 'reqd' to required fields.
-*   Add class 'reqd-email' to required e-mail fields
 */
 
 // *Version: 0.9, Last updated: 9/27/2010*
