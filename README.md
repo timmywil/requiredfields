@@ -3,12 +3,12 @@ timmy willison
 
 *Minimalistic form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)*<br/>
 
-*Version: 0.9, Last updated: 9/23/2010*
+*Version: 1.0, Last updated: 9/30/2010*
 
 Demo         - <a href="http://timmywillison.com/samples/requiredfields/">http://timmywillison.com/samples/requiredfields/</a><br/>
 GitHub       - <a href="http://github.com/timmywil/requiredfields">http://github.com/timmywil/requiredfields</a><br/>
-Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js</a> (8kb)<br/>
-(Minified)   - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js</a> (4kb)</br/>
+Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js</a> (4.3kb)<br/>
+(Minified)   - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js</a> (1.7kb)</br/>
 
 License
 
@@ -26,6 +26,7 @@ Chrome 4-5, Opera 9.6-10.5.
 
 Release History
 
+1.0   - (9/30/2010) Add individual field validation
 0.9   - (9/23/2010) Initial release
 
 <h1>PURPOSE OF THIS VALIDATION PLUGIN</h1>
