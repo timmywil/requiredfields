@@ -14,7 +14,7 @@ License
 
 Copyright (c) 2010 timmy willison<br/>
 Dual licensed under the MIT and GPL licenses.<br/>
-<a href="http://timmywillison.com/license/">http://timmywillison.com/license/</a>
+<a href="http://timmywillison.com/licence/">http://timmywillison.com/licence/</a>
 
 Support and Testing
 
