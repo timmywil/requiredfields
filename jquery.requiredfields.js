@@ -47,10 +47,15 @@ $.fn.checkForm = function () {
         for ( var i=0; i<allTags.length; i++ )
             if( !validTag(allTags[i]) )
                 allGood=false;
+        
+        // Blur for placeholders
+        if ( !allGood ) {
+            $(form).find('input:text').blur();
+        }
         return allGood;
     }
     var rawForm = this[0];
-    if (rawForm.tagName === "FORM")
+    if (rawForm && rawForm.tagName === "FORM")
         return validForm(rawForm);
     return false;
 };
@@ -65,14 +70,7 @@ $.fn.checkField = function() {
 // Validate a form before it is sent
 $.fn.validate = function () {
     return this.submit(function (e) {
-        var $form = $(this),
-            check = $form.checkForm();
-        
-        // Blur for any placeholders
-        if ( !check ) {
-            $form.find('input:text').blur();
-        }
-        return check;
+        return $(this).checkForm();
     });
 };
 
