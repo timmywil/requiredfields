@@ -1,5 +1,5 @@
 /*!
-*   jquery.requiredfields.js
+*   jquery.requiredfields.js v1.0
 *   Minimalist form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)
 *   Copyright (c) 2010 timmy willison
 *   Dual licensed under the MIT and GPL licenses.
@@ -11,7 +11,7 @@
 // Demo         - http://timmywillison.com/samples/requiredfields/
 // GitHub       - http://github.com/timmywil/requiredfields
 // Source       - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js (4.3kb)
-// (Minified)   - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js (1.7kb)
+// (Minified)   - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js (1.3kb)
 // 
 // License
 // 
