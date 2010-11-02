@@ -40,8 +40,8 @@ Initialize:
 $('form').validate();
 </pre>
 
-<i>validate()</i> simply applies a pre-made submit function to the selected form(s).<br/>
-It simply runs <i>checkForm()</i> and stops submit if the form is invalid.<br/>
+<i>validate()</i> applies a pre-made submit function to the selected form(s).<br/>
+It runs <i>checkForm()</i> and stops submit if the form is invalid.<br/>
 
 You may also use <b>checkForm()</b> in your own submit function instead. Like so:<br/>
 
@@ -87,6 +87,6 @@ Add class 'reqd-email' to required e-mail fields:
 
 
 <h3>Summary</h3>
-All this plugin really does is add a class of '<b>invalid</b>' to all required text inputs,<br/>
+All this plugin does is add a class of '<b>invalid</b>' to all required text inputs (and to labels that are placed before the inputs),<br/>
 email inputs, and select fields that have not been properly filled out.<br/>
 It is the responsibility of the <b>user</b> to make invalid states look how they should.

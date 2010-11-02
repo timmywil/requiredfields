@@ -125,7 +125,7 @@ function validTag(thisTag) {
             
                 // Must be a valid email address
                 var v = $.trim(thisTag.value);
-                var emailPattern = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
+                var emailPattern = /[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?/;
                 if(!emailPattern.test(v))
                     classBack = "invalid ";
                 classBack += thisClass;
