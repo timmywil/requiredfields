@@ -1,5 +1,5 @@
-/*!
-*   jquery.requiredfields.js v1.0
+/**
+*   @preserve jquery.requiredfields.js v1.0
 *   Minimalist form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)
 *   Copyright (c) 2010 timmy willison
 *   Dual licensed under the MIT and GPL licenses.
@@ -23,9 +23,9 @@
 // 
 // Versions of jQuery and browsers this was tested on.
 // 
-// jQuery Versions - 1.3.0-1.4.2
+// jQuery Versions - 1.3.0-1.4.4
 // Browsers Tested - Internet Explorer 6-8, Firefox 2-3.7, Safari 3-5,
-//                   Chrome 4-5, Opera 9.6-10.5.
+//                   Chrome 4-7, Opera 9.6-10.5.
 // 
 // Release History
 // 
@@ -34,7 +34,8 @@
 // 
 // See README for usage
 
-(function ($, window, document, undefined) {
+(function ( $, window, undefined ) {
+var document = window.document;
 
 // Expects only one form because the return
 // value is true or false
@@ -55,7 +56,7 @@ $.fn.checkForm = function () {
         return allGood;
     }
     var rawForm = this[0];
-    if (rawForm && rawForm.tagName === "FORM")
+    if ( rawForm && rawForm.tagName === "FORM" )
         return validForm(rawForm);
     return false;
 };
@@ -94,10 +95,10 @@ function validTag(thisTag) {
     }
     return true;
     
-    function validBasedOnClass(thisClass) {
+    function validBasedOnClass ( thisClass ) {
         var classBack = "";
         
-        switch(thisClass) {
+        switch( thisClass ) {
             
             // Don't do anything
             case "":
@@ -106,10 +107,10 @@ function validTag(thisTag) {
             
             // Regular required field
             case "reqd":
-                var v = $.trim(thisTag.value);
+                var v = $.trim( thisTag.value );
                 
-                // Also check if the field's value is the same as its placeholder
-                if( v === "" || v === "NONE" || v === $thisTag.data('placeholder') ) {
+                // Also check if the field's value is the same as its placeholder (works with jquery.outofplace.js)
+                if ( v === "" || v === "NONE" || v === $thisTag.data('placeholder') ) {
                     classBack = "invalid ";
                     
                     // Account for elect plugin
@@ -120,13 +121,12 @@ function validTag(thisTag) {
                 classBack += thisClass;
                 break;
             
-            // Required email
+            // Validate an email address
             case "reqd-email":
-            
-                // Must be a valid email address
-                var v = $.trim(thisTag.value);
-                var emailPattern = /[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?/;
-                if(!emailPattern.test(v))
+                var v            = $.trim( thisTag.value ),
+                    emailPattern = /[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?/;
+                    
+                if ( !emailPattern.test( v ) )
                     classBack = "invalid ";
                 classBack += thisClass;
                 break;
@@ -137,4 +137,4 @@ function validTag(thisTag) {
     }
 }
 
-})(jQuery, this, document);
+})(jQuery, this);
