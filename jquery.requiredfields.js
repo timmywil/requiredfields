@@ -6,11 +6,11 @@
 *   http://timmywillison.com/licence/
 */
 
-// *Version: 1.0, Last updated: 9/30/2010*
+// *Version: 1.1, Last updated: 12/3/2010*
 // 
 // Demo         - http://timmywillison.com/samples/requiredfields/
 // GitHub       - http://github.com/timmywil/requiredfields
-// Source       - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js (4.3kb)
+// Source       - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js (4.4kb)
 // (Minified)   - http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js (1.3kb)
 // 
 // License
@@ -29,12 +29,13 @@
 // 
 // Release History
 // 
+// 1.1   - (12/3/2010) Important update to email validation regex (wasn't anchored)
 // 1.0   - (9/30/2010) Add individual field validation
 // 0.9   - (9/23/2010) Initial release
 // 
 // See README for usage
 
-(function ( $, window, undefined ) {
+;(function ($, window, undefined) {
 var document = window.document;
 
 // Expects only one form because the return
@@ -56,7 +57,7 @@ $.fn.checkForm = function () {
         return allGood;
     }
     var rawForm = this[0];
-    if ( rawForm && rawForm.tagName === "FORM" )
+    if (rawForm && rawForm.tagName === "FORM")
         return validForm(rawForm);
     return false;
 };
@@ -107,9 +108,9 @@ function validTag(thisTag) {
             
             // Regular required field
             case "reqd":
-                var v = $.trim( thisTag.value );
+                var v = $.trim(thisTag.value);
                 
-                // Also check if the field's value is the same as its placeholder (works with jquery.outofplace.js)
+                // Also check if the field's value is the same as its placeholder
                 if ( v === "" || v === "NONE" || v === $thisTag.data('placeholder') ) {
                     classBack = "invalid ";
                     
@@ -121,12 +122,13 @@ function validTag(thisTag) {
                 classBack += thisClass;
                 break;
             
-            // Validate an email address
+            // Required email
             case "reqd-email":
-                var v            = $.trim( thisTag.value ),
-                    emailPattern = /[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?/;
-                    
-                if ( !emailPattern.test( v ) )
+            
+                // Must be a valid email address
+                var v = thisTag.value;
+                var emailPattern = /^([a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*\+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)$/;
+                if(!emailPattern.test(v))
                     classBack = "invalid ";
                 classBack += thisClass;
                 break;

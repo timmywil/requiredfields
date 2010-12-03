@@ -3,11 +3,11 @@ timmy willison
 
 *Minimalistic form validation for all browsers (IE6+, Firefox, Opera, Safari, Chrome)*<br/>
 
-*Version: 1.0, Last updated: 9/30/2010*
+*Version: 1.1, Last updated: 12/3/2010*
 
 Demo         - <a href="http://timmywillison.com/samples/requiredfields/">http://timmywillison.com/samples/requiredfields/</a><br/>
 GitHub       - <a href="http://github.com/timmywil/requiredfields">http://github.com/timmywil/requiredfields</a><br/>
-Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js</a> (4.3kb)<br/>
+Source       - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.js</a> (4.4kb)<br/>
 (Minified)   - <a href="http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js">http://github.com/timmywil/requiredfields/raw/master/jquery.requiredfields.min.js</a> (1.3kb)</br/>
 
 License
@@ -20,13 +20,14 @@ Support and Testing
 
 Versions of jQuery and browsers this was tested on.
 
-jQuery Versions - 1.3.0-1.4.4
+jQuery Versions - 1.3.0-1.4.4<br/>
 Browsers Tested - Internet Explorer 6-8, Firefox 2-3.7, Safari 3-5, <br/>
 Chrome 4-7, Opera 9.6-10.5.
 
 Release History
 
-1.0   - (9/30/2010) Add individual field validation
+1.1   - (12/3/2010) Important update to email validation regex (wasn't anchored)<br/>
+1.0   - (9/30/2010) Add individual field validation<br/>
 0.9   - (9/23/2010) Initial release
 
 <h1>PURPOSE OF THIS VALIDATION PLUGIN</h1>
